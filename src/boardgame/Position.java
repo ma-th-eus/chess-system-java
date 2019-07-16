@@ -11,7 +11,7 @@ public class Position {
 		this.column = column;
 	}
 
-	protected int getRow() {
+	public int getRow() {
 		return row;
 	}
 
@@ -19,7 +19,7 @@ public class Position {
 		this.row = row;
 	}
 
-	protected int getColumn() {
+	public int getColumn() {
 		return column;
 	}
 
