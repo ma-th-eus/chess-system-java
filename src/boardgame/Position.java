@@ -15,7 +15,7 @@ public class Position {
 		return row;
 	}
 
-	protected void setRow(int row) {
+	public void setRow(int row) {
 		this.row = row;
 	}
 
@@ -23,7 +23,12 @@ public class Position {
 		return column;
 	}
 
-	protected void setColumn(int column) {
+	public void setColumn(int column) {
+		this.column = column;
+	}
+	
+	public void setValues(int row, int column) {
+		this.row = row;
 		this.column = column;
 	}
 
@@ -31,8 +36,6 @@ public class Position {
 	public String toString() {
 		return row + ", " + column;
 	}
-	
-	
 	
 	
 
